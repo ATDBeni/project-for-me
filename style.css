@@ -137,6 +137,7 @@ body{
 justify-content: space-between;
 border-radius: 1000px;
 border-color: black;
+width: 30px;
   
 }
 img{
@@ -169,5 +170,8 @@ h3{
   text-align: center;
 
 
+   }
+   .slider{
+    font-size: 100%;
    }
   

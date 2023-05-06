@@ -1,0 +1,173 @@
+h1{
+    text-align: left;
+    font-size: 30px;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+
+
+}
+h2{
+    text-align: left;
+    font-size: 25px;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+ 
+}
+body{
+    background-image:url(https://previews.123rf.com/images/zorgens/zorgens1704/zorgens170400135/76629989-texturized-grey-putty-vintage-or-grungy-background-of-venetian-stucco-texture-as-pattern-wall.jpg);
+    background-size: cover;
+    
+
+
+
+}
+.first-paragraf{
+   font-size: 25px;
+   margin: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 800;
+   color: black
+
+}
+.navigation{
+    color: rgb(12, 106, 106);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 101%;
+    padding:  0 1rem;
+    border-radius: 10px;
+    z-index: 100px;
+    background-image: linear-gradient(rgb(0,0,0), rgb(7, 19, 49));
+    position: relative;
+
+    
+
+}
+.nav_button{
+   display: flex;
+   display: flex;
+   align-items: center;
+   list-style: none;
+   font-size: 50px;
+   justify-content: space-between
+
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    padding: 0 6rem;
+    border-radius: 10px;
+    z-index: 100;
+    background-image: linear-gradient(rgb(0,0,0), rgb(23, 33, 30));
+  }
+  
+  /* nav and stickly class at the same time */
+  .nav.sticky {
+    position: fixed;
+    background-image: linear-gradient(rgb(127, 195, 135), rgb(105, 158, 141));
+    
+  }
+  
+  .nav__logo {
+    height: 4.5rem;
+    transition: all 0.3s;
+  }
+  
+  .nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+   font-size: 23px;
+  }
+ 
+  .nav__item {
+   
+    margin-left: 5rem;
+  color:#fdfffb;
+  }
+  
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  
+  
+  .img{
+    position: absolute;
+     left: 57%;
+     width: 35rem;
+     height: 25rem;
+     top: 150px;
+     right: 100px;
+     transform: translate(0%, 0%);
+ }
+ .conteinar1{
+    color: black;
+    width: 10em;
+    height: 10em;
+    
+ }
+ p{
+ text-align: left;
+ font-size: 20pxp;
+
+ 
+
+}
+
+.poze{
+  display: flex;
+justify-content: space-between;
+border-radius: 1000px;
+border-color: black;
+  
+}
+img{
+  width: 30rem;
+  border-radius: 20px;
+  border-color: black;
+
+}
+.secondparagraf{
+font-size: 2rem;
+}
+ul{
+  font-size: 23px;
+  margin: 20px;
+}
+h3{
+  margin: 50px;
+  font-size: 20px;
+}
+.buttonlearn{
+  
+  height: 1rem;
+  margin: 4rem;
+  color: white;
+  font-size: 23px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1px;
+  padding-top: 17px;
+  text-align: center;
+
+
+   }
+  

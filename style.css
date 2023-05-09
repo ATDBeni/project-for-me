@@ -127,7 +127,7 @@ body{
  }
  p{
  text-align: left;
- font-size: 20pxp;
+ font-size: 20px;
  margin: 40px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -331,16 +331,21 @@ color: gray;
 p1{
   color:rgb(0, 0, 0);
   font-family: cursive;
+  font-size: 25px;
 
 
 }
 p2{
-  color:rgb(0, 0, 0);  
+  color:rgb(0, 0, 0); 
+  font-size: 25px;
+  font-family: cursive;
+
+ 
 }
 .secondparagraf{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
-  size: 30px;
+  resize: 30px;
 }
 .facebook{
   width: 37px;
@@ -389,3 +394,6 @@ align-items: last baseline;
 
 .footer__copyright .footer__link {
   font-size: 1.4rem;}
+  ol{
+    font-size: 30px
+  }

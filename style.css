@@ -160,6 +160,7 @@ font-size: 2rem;
 ul{
   font-size: 23px;
   margin: 20px;
+  font-weight: bold;
 }
 h3{
   margin: 50px;
@@ -339,8 +340,52 @@ p2{
 .secondparagraf{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
+  size: 30px;
 }
 .facebook{
   width: 37px;
 align-items: last baseline;
 }
+
+.p4{
+  text-align: right;
+  margin-left: 300px;
+}
+.footer {
+  width: 100%;
+  height:300px;
+  background-color: #37383d;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.footer__item {
+  margin-right: 4rem;
+}
+
+.footer__link {
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer__logo {
+  height: 5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1.4rem;}

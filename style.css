@@ -130,6 +130,7 @@ body{
  font-size: 20pxp;
  margin: 40px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
 
  
 
@@ -160,7 +161,6 @@ h3{
   margin: 50px;
   font-size: 20px;
 }
-
    
 
 
@@ -320,4 +320,12 @@ font-size:x-large;
 .btn--text:hover{
   background-color: #020202;  
 color: gray;
+}
+p1{
+  color:rgb(0, 0, 0);
+  font-family: cursive;
+
+}
+p2{
+  color:rgb(0, 0, 0);  
 }

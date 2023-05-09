@@ -4,7 +4,7 @@ h1{
     margin: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: black;
+    color: rgb(0, 0, 0);
 
 
 }
@@ -26,7 +26,7 @@ body{
 }
 .first-paragraf{
    font-size: 25px;
-   margin: 50px;
+   margin: 40px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: 800;
    color: black
@@ -38,7 +38,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 7rem;
-    width: 101%;
+    width: 98%;
     padding:  0 1rem;
     border-radius: 10px;
     z-index: 100px;
@@ -64,7 +64,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9rem;
+    height: 7rem;
     width: 100%;
     padding: 0 6rem;
     border-radius: 10px;
@@ -111,8 +111,9 @@ body{
   
   .img{
     position: absolute;
-     left: 57%;
-     width: 35rem;
+    
+     left: 64%;
+     width: 30rem;
      height: 25rem;
      top: 150px;
      right: 100px;
@@ -127,6 +128,8 @@ body{
  p{
  text-align: left;
  font-size: 20pxp;
+ margin: 40px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
  
 
@@ -159,15 +162,7 @@ h3{
 }
 .buttonlearn{
   
-  height: 1rem;
-  margin: 4rem;
-  color: white;
-  font-size: 23px;
-  width: 200px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 1px;
-  padding-top: 17px;
-  text-align: center;
+  
 
 
    }
@@ -319,3 +314,15 @@ color:#000;
 .slick-dots li.slick-active button:before{opacity:.75;color:#000}
 /*# sourceMappingURL=slick-theme.min.css.map */
   
+.btn--text{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+color: #000;
+margin: 50px;
+width: 30%;
+font-size:x-large;
+}
+.btn--text:hover{
+  background-color: #020202;  
+color: gray;
+}

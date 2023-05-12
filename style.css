@@ -21,11 +21,7 @@ body{
     background: linear-gradient(#d4cccc, #9198E5);
     text-align: center;
     margin: 0;
-
-
-
-
-
+    background-attachment: fixed;
 
 }
 .first-paragraf{
@@ -46,9 +42,7 @@ body{
     padding:  0 1rem;
     z-index: 100px;
     background-image: linear-gradient(rgb(0,0,0), rgb(7, 19, 49));
-    position: relative;
-
-    
+    position: relative; 
 
 }
 .nav_button{
@@ -58,8 +52,6 @@ body{
    list-style: none;
    font-size: 50px;
    justify-content: space-between
-
-
 
 }
 
@@ -155,6 +147,7 @@ img{
   width: 30rem;
   border-radius: 20px;
   border-color: black;
+  object-fit: cover;
 
 }
 .secondparagraf{
@@ -193,14 +186,14 @@ color: gray;
 }
 
 
-p1{
+#p1{
   color:rgb(0, 0, 0);
   font-family: cursive;
   font-size: 25px;
 
 
 }
-p2{
+#p2{
   color:rgb(0, 0, 0); 
   font-size: 25px;
   font-family: cursive;
@@ -217,7 +210,8 @@ p2{
 align-items: last baseline;
 }
 
-.p4{
+
+#p4{
   text-align: right;
   margin-left: 300px;
 }
@@ -306,18 +300,10 @@ align-items: last baseline;
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
-/* Number text (1/3 etc) */
+
+
+/* Number text (1/7 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;

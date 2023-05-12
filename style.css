@@ -22,12 +22,12 @@ body{
     text-align: center;
     margin: 0;
     background-attachment: fixed;
-
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .first-paragraf{
    font-size: 25px;
    margin: 40px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-weight: 800;
    color: black;
    height: 200px;
@@ -45,7 +45,7 @@ body{
     width: 100%;
     padding:  0 1rem;
     z-index: 100px;
-    background-image: linear-gradient(rgb(0,0,0), rgb(7, 19, 49));
+    background-color: #1d1a47;;
     position: relative; 
 
 }
@@ -111,19 +111,52 @@ body{
   .img{
     position: absolute;
     
+
      left: 64%;
      width: 28rem;
      height: 24rem;
-     top: 150px;
+     top: 20%;
      right: 100px;
-     transform: translate(0%, 0%);
+    
  }
+/*  asta ii prmu paragraf din home/meniu */
+.Conatiner{
+text-align: left;
+padding-left: 50px;
+
+}
+.ServiceName{
+font-size: large;
+font-size: 30px;
+}
+
  .conteinar1{
     color: black;
     width: 10em;
     height: 10em;
     
  }
+
+ .Container-Service{
+  background-color: #214349;
+  color: white;
+padding-bottom: 30px;
+padding-top: 30px;
+transition: all 6s;
+ }
+ 
+ .Container-Service:hover{
+  background-color: #305e66;
+  color: white;
+
+
+   }
+  
+
+
+
+
+
  p{
  text-align: left;
  font-size: 20px;
@@ -133,11 +166,7 @@ body{
  
 
 }
-h3{
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
-color: black;
-}
+
 
 .poze{
   display: flex;
@@ -346,15 +375,69 @@ li{
   list-style-type: none;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   body {
-    display:none;
+    
  
   }
   .nav{
     display: block;
   }
+.img{
+  display: none;
+}
+.first-paragraf{
+  font-size: 15px;
+text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: black;
+  height: 200px;
+  width: 1000px;
+  text-align: left;
+  
+
 }
 
+}
 
+/* asta ii aia smechera  */
+.custom-shape-divider-top-1683892922 {
 
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1683892922 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 118px;
+}
+
+.custom-shape-divider-top-1683892922 .shape-fill {
+  fill: #1d1a47;
+}
+.custom-shape-divider-bottom-1683894050 {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1683894050 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 57px;
+}
+
+.custom-shape-divider-bottom-1683894050 .shape-fill {
+  fill: #214349;
+}

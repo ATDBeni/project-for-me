@@ -356,8 +356,12 @@ li{
     display: block;
   }
 }
-.fa-brands{
+.fa-facebook{
   font-size: 40px;
+  color: rgb(0, 0, 248);
 }
-
+.fa-instagram{
+color: rgb(188, 32, 97);
+font-size: 40px;
+}
 

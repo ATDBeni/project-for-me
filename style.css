@@ -1,7 +1,8 @@
 h1{
     text-align: left;
     font-size: 30px;
-    margin: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -18,7 +19,6 @@ h2{
 body{
     background-size: cover;
     background: linear-gradient(#d4cccc, #9198E5);
-    text-align: center;
     margin: 0;
     background-attachment: fixed;
 
@@ -154,14 +154,17 @@ font-size: 2rem;
 
 ul{
   font-size: 23px;
-  margin: 20px;
+  margin: 10px;
   font-weight: bold;
   list-style-type: none;
 }
 
 h3{
-  margin: 50px;
-  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  
 }
 
 .btn--text{
@@ -175,13 +178,14 @@ font-size:x-large;
 
 .btn--text:hover{
   background-color: #020202;  
-color: gray;
+color: white;
 }
 
 #p1{
   color:rgb(0, 0, 0);
   font-family: cursive;
   font-size: 25px;
+  padding-top: 0px;
 }
 
 #p2{
@@ -300,6 +304,7 @@ background: none;
 
 .active, .dot:hover {
   background-color: #717171;
+  
 }
 
 .fade {
@@ -315,6 +320,9 @@ li{
   list-style-type: none;
 
 }
+
+
+
 @media only screen and (max-width: 600px) {
   body {
     display:none;

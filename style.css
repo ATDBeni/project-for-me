@@ -360,6 +360,7 @@ li{
 }
 .figma{
   display: flex;
+  margin: 20px;
 
 }
 .figma p{
@@ -369,6 +370,7 @@ li{
 }
 .figma2{
   display: flex;
+  margin: 20px;
 }
 .figma2 p{
   flex: 1;

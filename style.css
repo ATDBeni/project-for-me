@@ -352,3 +352,25 @@ li{
 #section--3{
   text-align: center;
 }
+
+#cristina{
+  width: 100px;
+  height: 100px;
+  margin-left: 30%;
+}
+.figma{
+  display: flex;
+
+}
+.figma p{
+  flex: 1;
+  margin: 10px;
+
+}
+.figma2{
+  display: flex;
+}
+.figma2 p{
+  flex: 1;
+  margin: 10px;
+}

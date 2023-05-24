@@ -30,8 +30,9 @@ body{
    font-weight: 800;
    color: black;
    height: 200px;
-   width: 1000px;
    text-align: left;
+   width: 100%;
+
    
 }
 .navigation{
@@ -184,12 +185,15 @@ color: white;
   font-family: cursive;
   font-size: 25px;
   padding-top: 0px;
+  width: 100%;
 }
 
 #p2{
   color:rgb(0, 0, 0); 
   font-size: 25px;
   font-family: cursive;
+  width: 100%;
+
 }
 
 .facebook{
@@ -201,6 +205,8 @@ background: none;
 #p4{
   text-align: right;
   margin-left: 300px;
+  width: 100%;
+
 }
 
 .footer {
@@ -321,15 +327,7 @@ li{
 
 
 
-@media only screen and (max-width: 600px) {
-  body {
-    display:none;
- 
-  }
-  .nav{
-    display: block;
-  }
-}
+
 
 .fa-instagram{
   color: #de0560b5;
@@ -375,4 +373,24 @@ li{
 .figma2 p{
   flex: 1;
   margin: 10px;
+}
+main{
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;box-sizing: border-box;
+}
+@media screen and (max-width: 600px){
+  .nav{
+    width: 100%;
+  }
+
+}
+.nav__links :hover{
+  color: #000000;
+  border-radius: 9px;
+  padding: 0.5px;
+  background: linear-gradient(#d4cccc, #9198E5);
+  }
+#section--1{
 }

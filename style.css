@@ -391,6 +391,20 @@ main{
   border-radius: 9px;
   padding: 0.5px;
   background: linear-gradient(#d4cccc, #9198E5);
-  }
-#section--1{
 }
+/* 
+  .footer__link:hover{
+    padding: 4px;
+  }
+.linkedin:hover{
+  color:#9198E5;
+}
+.instagram:hover{
+  color: palevioletred;
+}
+.facebook:hover{
+  color: blue;
+}
+.conditi:hover{
+  color: darkslateblue;
+} */
